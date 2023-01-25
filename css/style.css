@@ -1,0 +1,321 @@
+/* COLORES
+#FFFFFF BLANCO
+#F1D64E ANARILLO
+#E9605C ROJO
+#71A362 VERDE
+#50B1BA AQUA
+#EB8D3E NARANJA
+#2D2E83 MORADO
+*/
+
+@font-face {
+    font-family: Korolev;
+    src: url(../assets/fonts/Korolev-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+h1, h2, p {
+    text-align: center;
+}
+
+ul, ol, li {
+    list-style: none;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.headerindex {
+    background-color: #2D2E83;
+    color: #FFFFFF;
+    font-family: korolev;
+    height: 70px;
+    width: 100%;
+    font-size: 32px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.bodyindex {
+    background-image: url(../assets/background_index.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+nav .header-logo {
+    width: 50px;
+    position: sticky;
+    top: 10px;
+}
+
+nav a {
+    color: #ffffff;
+}
+
+nav li {
+    margin-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.index1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainlogo {
+    display: flex;
+}
+.mainlogo  img {
+    max-width: 700px;
+    width: 100%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.banner1 {
+    color: #ffffff;
+    background-color: #EB8D3E;
+    font-size:xx-large;
+    font-family: korolev;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 300px;
+    max-width: 850px;
+    width: 50%;
+    padding: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.mensajebienvenida {
+    color: #50B1BA;
+    background-color: #ffffff;
+    font-size:large;
+    font-family: korolev;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 80%;
+    min-width: 300px;
+    max-width: 1000px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.tarjetasindex {
+    width: 80%;
+    max-width: 1000px;
+    min-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.tarjetasmain {
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.tarjetamain {
+    background-color: #FFFFFF;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: 290px;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+.tarjetasmain img {
+    width: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tarjetamain p, h2 {
+    font-family: korolev;
+    color: #50B1BA;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    padding-top: 20px;
+}
+/*PAGINA PAQUETES*/
+.bodypaquetes {
+    background-image: url(../assets/background_paquetes.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.bannerpaquetes {
+    font-family: korolev;
+    font-size: 30px;
+    background-color: #F1D64E;
+    color: #FFFFFF;
+    padding: 5px;
+    display: flex;
+    width: 280px;
+    margin: 20px;
+}
+
+.cardimgsection {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin: 30px;
+    margin-top: 100px;
+}
+
+.cardimage {
+    background-color: #fff;
+    padding: 10px;
+    width: 40%;
+    max-width: 290px;
+}
+
+.cardimage p {
+    font-family: korolev;
+}
+
+.cardimgsection img {
+    width: 100%;
+}
+
+
+.cardlistsection {
+    display: flex;
+    font-family: korolev;
+    justify-content:space-evenly;
+    gap: 10px;
+    margin: 30px;
+    margin-top: 100px;
+    color:#50B1BA;
+}
+
+.cardlist1 {
+    display: flex;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.cardlist2 {
+    display: flex;
+    padding: 10px;
+    background-color: #8d2525;
+}
+
+.productbotton {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    background-color: #EB8D3E;
+    font-size:xx-large;
+    font-family: korolev;
+    max-width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    padding: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.productbotton a {
+    color: #FFFFFF;
+}
+
+.col-4 {
+    background-color: #EB8D3E;
+    color: #FFFFFF;
+}
+
+.col-4 .page-title {
+    background-color: #F1D64E;
+    color: #FFFFFF;
+}
+
+/*footer*/
+
+footer {
+    background:#2D2E83;
+    font-family: korolev;
+    position: relative;
+    bottom:0;
+}
+
+.footertittle {
+    background-color: #EB8D3E;
+    color: #fff;
+    text-align: center;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 320px;
+    font-size: 20px;
+    font-family: korolev;
+    padding: 5px;
+}
+
+footer .footersection2 {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-family: korolev;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    max-width: 80%;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+    padding: 20px;
+    width: auto;
+}
+
+/*GALERIA*/
+
+.bodygaleria {
+    background-image: url(../assets/background_galeria.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}

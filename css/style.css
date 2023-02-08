@@ -32,10 +32,9 @@ a {
 }
 
 .headerindex {
-    background-color: #2D2E83;
     color: #FFFFFF;
     font-family: korolev;
-    height: 70px;
+    height: 0px;
     width: 100%;
     font-size: 32px;
     position: sticky;

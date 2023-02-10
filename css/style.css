@@ -13,23 +13,47 @@
     src: url(../assets/fonts/Korolev-Bold.ttf);
 }
 
-*{
+/*RESET*/
+* {
     margin: 0;
     padding: 0;
-} 
+}
 
-h1, h2, p {
+h1,
+h2,
+p {
     text-align: center;
 }
 
-ul, ol, li {
+ul,
+ol,
+li {
     list-style: none;
     text-align: center;
 }
+
 a {
     text-decoration: none;
     text-align: center;
 }
+
+.tag {
+    display: inline;
+    margin: 20px;
+    background-color: #EB8D3E;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.tag__tittle {
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: xx-large;
+}
+
+/*INDEX*/
 
 .headerindex {
     color: #FFFFFF;
@@ -81,7 +105,8 @@ nav ul {
 .mainlogo {
     display: flex;
 }
-.mainlogo  img {
+
+.mainlogo img {
     max-width: 700px;
     width: 100%;
     padding: 20px;
@@ -94,7 +119,7 @@ nav ul {
 .banner1 {
     color: #ffffff;
     background-color: #EB8D3E;
-    font-size:xx-large;
+    font-size: xx-large;
     font-family: korolev;
     margin-left: auto;
     margin-right: auto;
@@ -109,7 +134,7 @@ nav ul {
 .mensajebienvenida {
     color: #50B1BA;
     background-color: #ffffff;
-    font-size:large;
+    font-size: large;
     font-family: korolev;
     margin-left: auto;
     margin-right: auto;
@@ -161,7 +186,8 @@ nav ul {
     margin-right: auto;
 }
 
-.tarjetamain p, h2 {
+.tarjetamain p,
+h2 {
     font-family: korolev;
     color: #50B1BA;
     text-align: center;
@@ -170,6 +196,7 @@ nav ul {
     padding: 15px;
     padding-top: 20px;
 }
+
 /*PAGINA PAQUETES*/
 .bodypaquetes {
     background-image: url(../assets/background_paquetes.jpg);
@@ -218,11 +245,11 @@ nav ul {
 .cardlistsection {
     display: flex;
     font-family: korolev;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     gap: 10px;
     margin: 30px;
     margin-top: 100px;
-    color:#50B1BA;
+    color: #50B1BA;
 }
 
 .cardlist1 {
@@ -242,7 +269,7 @@ nav ul {
     display: flex;
     justify-content: center;
     background-color: #EB8D3E;
-    font-size:xx-large;
+    font-size: xx-large;
     font-family: korolev;
     max-width: 220px;
     margin-left: auto;
@@ -270,10 +297,10 @@ nav ul {
 /*footer*/
 
 footer {
-    background:#2D2E83;
+    background: #2D2E83;
     font-family: korolev;
     position: relative;
-    bottom:0;
+    bottom: 0;
 }
 
 .footertittle {
@@ -317,4 +344,149 @@ footer .footersection2 {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+}
+
+/*CONTACTO*/
+
+/*INFORMATION CARD*/
+
+.body__contacto {
+    background-image: url(../assets/background_contacto.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.main__contact {
+    text-align: left;
+    font-family: korolev;
+}
+
+.info {
+    background-color: #ffffff;
+    max-width: 800px;
+    width: 90%;
+    margin-top: 190px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+    display: block;
+    overflow: hidden;
+}
+
+.info__tittle {
+    background-color: #71A362;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 3.5;
+}
+
+.info__tittle h2 {
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.info__parrafo {
+    padding: 10px;
+    line-height: 2.0;
+    margin-top: 0px;
+}
+
+.info__parrafo p {
+    display: block;
+    text-align: left;
+    color: #71A362;
+    font-size: larger;
+    margin: 10px;
+}
+
+.info__parrafo p a {
+    text-align: left;
+    color: #71A362;
+    font-size: larger;
+}
+
+.info__google {
+    position: relative;
+    margin: 20px;
+    height: auto;
+    overflow: hidden;
+}
+
+.ContactCard {
+    width: 200px;
+    display: flex;
+}
+
+.GoogleMaps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+/*FORMULARIO*/
+
+.info--var {
+    background-color: #ffffff;
+    max-width: 800px;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0cm;
+    display: block;
+    overflow: hidden;
+}
+
+.info__tittle--var {
+    background-color: #E9605C;
+    width: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info__tittle--var h2 {
+    color: #FFFFFF;
+}
+
+.info__parrafo--var {
+    display: block;
+    text-align: left;
+    color: #50B1BA;
+    font-size: larger;
+}
+
+.formulario {
+    color: #E9605C;
+    font-size: larger;
+}
+
+.formulario label {
+    margin-top: 30px;
+}
+
+.formulario legend {
+    margin-top: 10px;
+}
+
+.formulario .formulario__checklist {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.formulario .formulario_comentarybox--label {
+    margin-top: 20px;
+}
+
+#formulario__boton {
+    margin-top: 20px;
 }

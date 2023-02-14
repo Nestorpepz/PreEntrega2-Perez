@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Link al CDN de bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -13,11 +13,11 @@
     <title>Mundo Peke • Galeria</title>
 </head>
 
-<body class="bodygaleria">
+<body class="body__galery">
     <!--Header menu de navegacion-->
     <header class="headerindex" id="headerindex">
         <nav id="navbar" class="navbar navbar-expand-lg navbar-dark" style="background-color: #2D2E83;">
-            <div  class="container-fluid">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
                     <img src="../assets/logo_small_wt.png" alt="Bootstrap" width="40" height="40">
                 </a>
@@ -51,71 +51,46 @@
 
     <!--contenido de la pagina -->
     <main>
-        <div id="container__galery" class="container p-5">
-            <div class="row row-cols-1 row-cols-xl-4 g-4 align-items-center justify-content-center g-4">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="../assets/galeria/galeria_001.jpg" class="card-img-top" alt="juegos infantiles">
-                    </div>
+        <section id="gallery__section">
+            <div class="gallery__grid">
+                <div class="card--gallery">
+                    <img src="../assets/galeria/galeria_001.jpg" class="card-img-top" alt="juegos infantiles">
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="../assets/galeria/galeria_002.jpg" class="card-img-top" alt="comedor infantil">
-                    </div>
+                <div class="card--gallery">
+                    <img src="../assets/galeria/galeria_002.jpg" class="card-img-top" alt="comedor infantil">
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="../assets/galeria/galeria_003.jpg" class="card-img-top" alt="decoracion infantil">
-                    </div>
+                <div class="card--gallery">
+                    <img src="../assets/galeria/galeria_003.jpg" class="card-img-top" alt="decoracion infantil">
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="../assets/galeria/galeria_004.jpg" class="card-img-top" alt="maquina de palomitas">
-                    </div>
+                <div class="card--gallery">
+                    <img src="../assets/galeria/galeria_004.jpg" class="card-img-top" alt="maquina de palomitas">
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="../assets/galeria/galeria_005.jpg" class="card-img-top" alt="decoracion externa">
-                    </div>
+                <div class="card--gallery">
+                    <img src="../assets/galeria/galeria_005.jpg" class="card-img-top" alt="decoracion externa">
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="../assets/galeria/galeria_006.jpg" class="card-img-top" alt="alberca de pelotas">
-                    </div>
+                <div class="card--gallery">
+                    <img src="../assets/galeria/galeria_006.jpg" class="card-img-top" alt="alberca de pelotas">
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="../assets/galeria/galeria_007.jpg" class="card-img-top" alt="inflables">
-                    </div>
+                <div class="card--gallery">
+                    <img src="../assets/galeria/galeria_007.jpg" class="card-img-top" alt="inflables">
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="../assets/galeria/galeria_008.jpg" class="card-img-top" alt="jungla">
-                    </div>
+                <div class="card--gallery">
+                    <img src="../assets/galeria/galeria_008.jpg" class="card-img-top" alt="jungla">
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="../assets/galeria/galeria_009.jpg" class="card-img-top" alt="sala de usos multiples">
-                    </div>
+                <div class="card--gallery">
+                    <img src="../assets/galeria/galeria_009.jpg" class="card-img-top" alt="sala de usos multiples">
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="../assets/galeria/galeria_010.jpg" class="card-img-top" alt="cocina">
-                    </div>
+                <div class="card--gallery">
+                    <img src="../assets/galeria/galeria_010.jpg" class="card-img-top" alt="cocina">
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="../assets/galeria/galeria_011.jpg" class="card-img-top" alt="salon de usos multiples">
-                    </div>
+                <div class="card--gallery">
+                    <img src="../assets/galeria/galeria_011.jpg" class="card-img-top" alt="salon de usos multiples">
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="../assets/galeria/galeria_012.jpg" class="card-img-top"
-                            alt="salon de usos multiples 2">
-                    </div>
+                <div class="card--gallery">
+                    <img src="../assets/galeria/galeria_012.jpg" class="card-img-top" alt="salon de usos multiples 2">
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
     <!--Pie de pagina -->

@@ -15,7 +15,7 @@
 
 <body class="body__paquetes">
     <!--Header menu de navegacion-->
-    <header class="headerindex" id="headerindex">
+    <header class="header">
         <nav id="navbar" class="navbar navbar-expand-lg navbar-dark" style="background-color: #2D2E83;">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
@@ -115,7 +115,6 @@
                 </div>
             </div>
         </section>
-
         <div class="productbotton">
             <a href="../pages/contacto.html">AGENDA YA</a>
         </div>
@@ -124,17 +123,19 @@
     <!--Pie de pagina -->
     <footer>
         <div>
-            <div class="footertittle">
+            <div class="footer__title">
                 <h3>Síguenos en nuestras redes</h3>
             </div>
             <div>
-                <section class="footersection2">
-                    <a href="https://web.facebook.com/profile.php?id=100054590493747" class="footer-link">Facebook</a>
-                    <a href="https://www.instagram.com/mundopekeplaya/?next=%2F" class="footer-link">Instagram</a>
-                    <a href="https://wa.me/529842185787" class="footer-link">Whatsapp</a>
-                </section>
+                <div class="footer__grid">
+                    <a href="https://web.facebook.com/profile.php?id=100054590493747"
+                        class="footer__link--1">Facebook</a>
+                    <a href="https://www.instagram.com/mundopekeplaya/?next=%2F" class="footer__link--2">Instagram</a>
+                    <a href="https://wa.me/529842185787" class="footer__link--3">Whatsapp</a>
+                </div>
             </div>
         </div>
+        </main>
 
         <!--Link al script de bootstrap-->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -143,6 +144,12 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
             integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
             crossorigin="anonymous"></script>
+        <!--Link de animaciones-->
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+
     </footer>
 </body>
 

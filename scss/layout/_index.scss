@@ -1,0 +1,122 @@
+
+/*INDEX*/
+
+.bodyindex {
+    background-image: url(../assets/background_index.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.index__logo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.index__logo img {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+.index__banner {
+    color: #ffffff;
+    background-color: #EB8D3E;
+    font-size: xx-large;
+    font-family: korolev;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-width: 250px;
+    max-width: 400px;
+    width: 50%;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #3939396e;
+}
+
+.index__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.index__message {
+    color: #50B1BA;
+    background-color: #ffffff;
+    font-size: large;
+    font-family: korolev;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 80%;
+    min-width: 250px;
+    max-width: 800px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #3939396e;
+}
+
+.index__grid--cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin-bottom: 50px;
+    max-width: 800px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+}
+
+.index__card {
+    width: auto;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px #36363685;
+    transition: .2s;
+}
+
+.index__card:hover {
+    transform: scale(1.1);
+}
+
+.index__card img {
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.index__card p {
+    font-family: korolev;
+    color: #50B1BA;
+    font-size: larger;
+}
+
+.index__card h2 {
+    font-family: korolev;
+    color: #2D2E83;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    padding-top: 20px;
+}

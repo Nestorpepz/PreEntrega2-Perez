@@ -1,0 +1,15 @@
+//import de base
+@import "./base/reset";
+@import "./base/vars";
+
+//import de componentes
+@import "./components/header";
+@import "./components/main";
+@import "./components/footer";
+
+//import de layout
+@import "./layout/index";
+@import "./layout/galeria";
+@import "./layout/paquetes";
+@import "./layout/contacto";
+@import "./layout/medias";

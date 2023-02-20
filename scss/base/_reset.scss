@@ -1,0 +1,39 @@
+/* COLORES
+#FFFFFF BLANCO
+#F1D64E ANARILLO
+#E9605C ROJO
+#71A362 VERDE
+#50B1BA AQUA
+#EB8D3E NARANJA
+#2D2E83 MORADO
+*/
+
+/*RESET*/
+
+@font-face {
+    font-family: Korolev;
+    src: url(../assets/fonts/Korolev-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}

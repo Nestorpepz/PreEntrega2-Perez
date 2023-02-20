@@ -1,0 +1,65 @@
+/*GALERIA*/
+
+.body__galery {
+    background-image: url(../assets/background_galeria.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.gallery__main {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.gallery__section--carousel {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.carousel-inner {
+    border-radius: 5px;
+}
+
+#carouselExample {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 700px;
+}
+
+#gallery__section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: none;
+    justify-items: center;
+}
+
+.gallery__grid {
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+    padding: 60px;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+.card--gallery {
+    width: auto;
+    height: auto;
+    transition: .2s;
+}
+
+.card--gallery:hover {
+    box-shadow: 3px 3px 3px 3px rgba(70, 70, 70, 0.359);
+    transform: scale(1.1, 1.1);
+}

@@ -1,0 +1,82 @@
+@media only screen and (min-width:1100px) {
+    main {
+        min-height: 80vh;
+    }
+}
+
+@media only screen and (min-width:1300px) {
+    main {
+        min-height: 100vh;
+    }
+}
+
+@media only screen and (min-width:550px) {
+    .footer__grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width:800px) {
+    .index__grid--cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .index__grid--cards {
+        max-width: 1000px;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .gallery__section--carousel {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    #gallery__section {
+        display: grid;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .gallery__grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .gallery__grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1000px;
+        padding: 30px;
+    }
+    .card--gallery:hover {
+        transform: scale(2, 2);
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .cards__section {
+        grid-template-columns: 1fr 1fr;
+    }
+    #card__a {
+        order: 1;
+    }
+    #card__b {
+        order: 3;
+    }
+    #card__c {
+        order: 2;
+    }
+    #card__d {
+        order: 4;
+    }
+}
+
+    @media only screen and (min-width:1200px) {
+        .cards__section {
+            grid-template-columns: 1fr 1fr;
+        }
+    }

@@ -396,7 +396,7 @@ footer {
 .card--gallery {
     width: auto;
     height: auto;
-    transition: .2s;
+    transition: .3s;
 }
 
 .card--gallery:hover {

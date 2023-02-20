@@ -105,11 +105,30 @@ nav ul {
 
 /*footer*/
 
+main {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width:1100px) {
+    main {
+        min-height: 80vh;
+    }
+}
+
+@media only screen and (min-width:1300px) {
+    main {
+        min-height: 100vh;
+    }
+}
+
 footer {
     background: #2D2E83;
     font-family: korolev;
     position: relative;
-    bottom: 0;
+    bottom: 0px;
+    margin-top: auto;
 }
 
 .footer__title {
@@ -228,8 +247,6 @@ footer {
     background-color: #ffffff;
     font-size: large;
     font-family: korolev;
-    margin-left: 10px;
-    margin-right: 10px;
     padding: 15px;
     padding-left: 15px;
     padding-right: 15px;
@@ -320,14 +337,51 @@ footer {
     width: 100%;
 }
 
+.gallery__main {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.gallery__section--carousel {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media only screen and (min-width:600px) {
+    .gallery__section--carousel {
+        display: none;
+    }
+}
+
+.carousel-inner {
+    border-radius: 5px;
+}
+
+#carouselExample {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 700px;
+}
+
 #gallery__section {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: none;
+    justify-items: center;
+}
+
+@media only screen and (min-width:600px) {
+    #gallery__section {
+        display: grid;
+    }
 }
 
 .gallery__grid {
     max-width: 900px;
-    margin-top: 150px;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
@@ -335,6 +389,8 @@ footer {
     margin-right: auto;
     gap: 30px;
     padding: 60px;
+    margin: 0px;
+    margin-top: 0px;
 }
 
 .card--gallery {
@@ -360,7 +416,6 @@ footer {
         grid-template-columns: 1fr 1fr 1fr;
         max-width: 1000px;
         padding: 30px;
-        margin-top: 180px;
     }
 
     .card--gallery:hover {
